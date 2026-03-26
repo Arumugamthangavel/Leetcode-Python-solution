@@ -1,4 +1,3 @@
-# Leetcode-Python-solution
 # 🚀 LeetCode Python Solutions | Daily DSA Grind
 
 Welcome to my execution engine.
@@ -32,12 +31,13 @@ This repository is a **high-consistency log of LeetCode problems solved in Pytho
 
 ## 📊 Live Progress Dashboard
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Arumuigamthangavel/leetcode-python)
-![GitHub last commit](https://img.shields.io/github/last-commit/Arumugamthangavel/leetcode-python)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/leetcode-python)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/leetcode-python)
+![GitHub stars](https://img.shields.io/github/stars/your-username/leetcode-python?style=social)
 
 | Difficulty | Solved | Status     |
 | ---------- | ------ | ---------- |
-| 🟢 Easy    | 2      | 🔄 Scaling |
+| 🟢 Easy    | 0      | 🔄 Scaling |
 | 🟡 Medium  | 0      | 🔄 Scaling |
 | 🔴 Hard    | 0      | 🔄 Scaling |
 
@@ -87,4 +87,52 @@ No zero days.
 
 ---
 
-## 📌 Sample Problem F
+## 📌 Sample Problem Format
+
+```python
+# Problem: Two Sum
+# Difficulty: Easy
+# Approach: Hash Map
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+def twoSum(nums, target):
+    lookup = {}
+    for i, num in enumerate(nums):
+        diff = target - num
+        if diff in lookup:
+            return [lookup[diff], i]
+        lookup[num] = i
+```
+
+---
+
+## 🚀 Roadmap
+
+* [ ] Solve 300+ problems
+* [ ] Master core DSA patterns
+* [ ] Add explanations for each problem
+* [ ] Add time/space complexity for all solutions
+* [ ] Build interview-ready problem sets
+
+---
+
+## 🤝 Collaboration
+
+If you're serious about DSA and consistency, let's connect and push each other.
+
+---
+
+## ⭐ Support
+
+If this repo adds value, drop a star ⭐
+It keeps the momentum alive.
+
+---
+
+## ⚠️ Disclaimer
+
+This is not a tutorial repo.
+This is a **performance log of deliberate practice**.
+
+---
