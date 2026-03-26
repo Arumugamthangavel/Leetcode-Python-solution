@@ -31,9 +31,9 @@ This repository is a **high-consistency log of LeetCode problems solved in Pytho
 
 ## 📊 Live Progress Dashboard
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/leetcode-python)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/leetcode-python)
-![GitHub stars](https://img.shields.io/github/stars/your-username/leetcode-python?style=social)
+## 📊 LeetCode Stats
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/6face?theme=dark&font=baloo&ext=heatmap)
 
 | Difficulty | Solved | Status     |
 | ---------- | ------ | ---------- |
