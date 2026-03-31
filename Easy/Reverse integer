@@ -18,4 +18,3 @@ class Solution(object):
             rev = rev * 10 + digit
         
         return sign * rev
-
