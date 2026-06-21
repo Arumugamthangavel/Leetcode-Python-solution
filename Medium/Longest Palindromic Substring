@@ -22,5 +22,3 @@ class Solution(object):
                 end = i + max_len // 2
 
         return s[start:end + 1]
-
-
